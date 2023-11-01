@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rent-n-roll/static/css/main.b5320759.css",
+    "main.js": "/rent-n-roll/static/js/main.9464a710.js",
+    "index.html": "/rent-n-roll/index.html",
+    "main.b5320759.css.map": "/rent-n-roll/static/css/main.b5320759.css.map",
+    "main.9464a710.js.map": "/rent-n-roll/static/js/main.9464a710.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5320759.css",
+    "static/js/main.9464a710.js"
+  ]
+}
