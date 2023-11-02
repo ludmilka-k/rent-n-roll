@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/rent-n-roll/static/css/main.b5320759.css",
-    "main.js": "/rent-n-roll/static/js/main.9464a710.js",
+    "main.css": "/rent-n-roll/static/css/main.e4eedde2.css",
+    "main.js": "/rent-n-roll/static/js/main.95d58c53.js",
+    "static/js/544.4f449614.chunk.js": "/rent-n-roll/static/js/544.4f449614.chunk.js",
+    "static/js/822.4d2a43fc.chunk.js": "/rent-n-roll/static/js/822.4d2a43fc.chunk.js",
+    "static/js/733.29a30ce2.chunk.js": "/rent-n-roll/static/js/733.29a30ce2.chunk.js",
     "index.html": "/rent-n-roll/index.html",
-    "main.b5320759.css.map": "/rent-n-roll/static/css/main.b5320759.css.map",
-    "main.9464a710.js.map": "/rent-n-roll/static/js/main.9464a710.js.map"
+    "main.e4eedde2.css.map": "/rent-n-roll/static/css/main.e4eedde2.css.map",
+    "main.95d58c53.js.map": "/rent-n-roll/static/js/main.95d58c53.js.map",
+    "544.4f449614.chunk.js.map": "/rent-n-roll/static/js/544.4f449614.chunk.js.map",
+    "822.4d2a43fc.chunk.js.map": "/rent-n-roll/static/js/822.4d2a43fc.chunk.js.map",
+    "733.29a30ce2.chunk.js.map": "/rent-n-roll/static/js/733.29a30ce2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5320759.css",
-    "static/js/main.9464a710.js"
+    "static/css/main.e4eedde2.css",
+    "static/js/main.95d58c53.js"
   ]
 }
