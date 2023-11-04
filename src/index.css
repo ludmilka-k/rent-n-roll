@@ -7,6 +7,8 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   line-height: 1.5;
+  color: #212121;
+  background-color: #F7F6F9;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -18,14 +20,6 @@ code {
 
 *, *::before, *::after {
   box-sizing: border-box;
-}
-
-html, body {
-  font-family: 'Inter Tight', sans-serif;
-  padding: 0;
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6 {
