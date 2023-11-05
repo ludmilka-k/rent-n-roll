@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 export const List = styled.ul`
+  margin-top: 40px;
   margin-bottom: 40px;
   display: grid;
   justify-items: center;

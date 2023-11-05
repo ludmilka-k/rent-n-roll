@@ -20,7 +20,7 @@ const CarCard = ({car}) => {
     <>
       <Card>
         <ImageBox>
-          <HeartIcon data={car}/>
+          <HeartIcon car={car}/>
           <Image src={testImg} alt={car.model} loading="lazy" />
         </ImageBox>
         <TitleBox>
