@@ -11,7 +11,7 @@ const Catalog = () => {
 
   useEffect(() => {
     dispatch(fetchCarsThunk());
-  }, []);
+  }, [dispatch]);
 
   return (
     <>
