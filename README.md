@@ -11,7 +11,7 @@ The application consists of 3 pages:
   about the car and its rental conditions.
 - Favorites - a page with ads that have been added to favorites by the user.
 
-!### The technology stack used in the project:
+### The technology stack used in the project:
 
 <code><img height="55" src="https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png" alt="HTML" title="HTML" /></code>
 <code><img height="55" src="https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png" alt="CSS" title="CSS" /></code>
