@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import {fetchCarsThunk} from '../../redux/operations';
 import FilterBar from '../../components/FilterBar';
@@ -12,7 +12,7 @@ const Catalog = () => {
   const showLoadMore = useSelector(selectShowLoadMore);
   const page = useSelector(selectPage);
 
-  var currentPage = 0;
+  let currentPage = 0;
 
   useEffect(() => {
     console.log("(fetchCarsThunk: " + page);
@@ -20,7 +20,7 @@ const Catalog = () => {
        dispatch(fetchCarsThunk(page));
        currentPage = page;
     }
-  }, [page]);
+  }, [page, dispatch]);
 
   return (
     <>
