@@ -4,7 +4,7 @@ import HeartIcon from '../HeartIcon';
 import Button from '../Button';
 import Modal from'../Modal';
 import CarDescription from '../CarDescription';
-import testImg from '../../images/mitsubishi.webp';
+
 
 const CarCard = ({car}) => {
   const [isOpenModal, setIsOpenModal] = useState(false)
@@ -21,7 +21,7 @@ const CarCard = ({car}) => {
       <Card>
         <ImageBox>
           <HeartIcon car={car}/>
-          <Image src={testImg} alt={car.model} loading="lazy" />
+          <Image src={car.img} alt={car.model} loading="lazy" />
         </ImageBox>
         <TitleBox>
           <Title>{car.make} <Model>{car.model}</Model>, {car.year}</Title>

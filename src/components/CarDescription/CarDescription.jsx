@@ -1,6 +1,5 @@
 
 import { DescriptionBox, Image, ImageBox, Title, Item, Model, Description, Heading, List, ConditionBox, ConditionItem , Span} from './CarDescription.styled';
-import testImg from '../../images/mitsubishi.webp'; // {car.img}
 import Button from '../Button';
 
 const CarDescription = ({car}) => {
@@ -9,7 +8,7 @@ const CarDescription = ({car}) => {
   return (
     <>
       <ImageBox>
-        <Image src={testImg} alt={car.model} width="460" height="248" loading="lazy" />
+        <Image src={car.img} alt={car.model} width="460" height="248" loading="lazy" />
       </ImageBox>
       <Title>{car.make} <Model>{car.model}</Model>, {car.year}</Title>
       <DescriptionBox>
