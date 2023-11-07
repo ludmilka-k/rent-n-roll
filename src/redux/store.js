@@ -12,6 +12,7 @@ import {
 } from 'redux-persist';
 import { carsReducer} from './carsSlice';
 import { favoritesReducer} from './favoritesSlice';
+import {pageReducer} from './pageSlice';
 
 const persistConfig = {
   key: 'favorites',
@@ -23,6 +24,7 @@ const persistConfig = {
 const reducers = combineReducers({
   cars: carsReducer,
   favorites: favoritesReducer,
+  page: pageReducer,
 });
 
 const persistedReducer = persistReducer(persistConfig, reducers);
