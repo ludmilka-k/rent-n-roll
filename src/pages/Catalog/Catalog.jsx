@@ -12,13 +12,13 @@ const Catalog = () => {
   const showLoadMore = useSelector(selectShowLoadMore);
   const page = useSelector(selectPage);
 
-  let currentPage = 0;
+  let currentPage = { page: 0 };
 
   useEffect(() => {
     console.log("(fetchCarsThunk: " + page);
-    if (page > currentPage) {
+    if (page > currentPage.page) {
        dispatch(fetchCarsThunk(page));
-       currentPage = page;
+       currentPage.page = page;
     }
   }, [page, dispatch]);
 
