@@ -1,5 +1,5 @@
+// export const selectCars = state => state.cars.items;
 export const selectFavorites = state => state.favorites;
-export const selectCars = state => state.cars.items;
-export  const selectFilter =  state =>  state.filter;
+export const selectFilters = state => state.filters;
 export const selectPage = state => state.page;
-export const selectShowLoadMore = state => state.cars.showLoadMore;
+export const selectEndOfCollection = state => state.cars.endOfCollection;

@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-
+import { AiOutlineDown, AiOutlineUp } from 'react-icons/ai';
 
 export const FilterForm = styled.div`
   margin-top: 40px;
@@ -47,7 +47,7 @@ export const LeftInput = styled.input`
   border-radius: 14px 0 0 14px;
 
   &:focus {
-    outline-color: ${p => p.theme.colors.mainAccentColor};;
+    outline-color: ${p => p.theme.colors.mainAccentColor};
   }
 `;
 export const LeftInputText = styled.p`
@@ -70,7 +70,7 @@ export const  RightInput = styled.input`
   text-indent: 40px;
 
   &:focus {
-    outline-color: ${p => p.theme.colors.mainAccentColor};;
+    outline-color: ${p => p.theme.colors.mainAccentColor};
   }
 `;
 export const  RightInputText = styled.p`

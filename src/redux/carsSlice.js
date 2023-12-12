@@ -1,44 +1,48 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { fetchCarsThunk } from './operations';
+import { fetchCarsByPageThunk } from './operations';
 
 const initialState = {
-  items: [],
+  // items: [],
+  filterCars: [],
   isLoading: false,
   error: null,
-  showLoadMore: true,
+  endOfCollection: false,
 };
 
 const carsSlice = createSlice({
   name: 'cars',
   initialState,
   reducers: {
-    clearItems(state) {
-      state.items = [];
+    clearEndOfCollection(state) {
+      state.endOfCollection = false;
     },
   },
   extraReducers: builder =>
     builder
-      .addCase(fetchCarsThunk.pending, state => {
+      .addCase(fetchCarsByPageThunk.pending, state => {
         state.isLoading = true;
-        state.showLoadMore = false;
+        state.error = null;
+        state.endOfCollection = false;
       })
-      .addCase(fetchCarsThunk.fulfilled, (state, action) => {
+      .addCase(fetchCarsByPageThunk.fulfilled, (state, action) => {
         state.isLoading = false;
         state.error = null;
-        state.showLoadMore = true;
 
-        if (action.payload.length < 12 || action.payload.length === 0) {
-          state.showLoadMore = false;
+        if (action.payload.length < 12) {
+          state.endOfCollection = true;
+        } else {
+          state.endOfCollection = false;
         }
 
-        state.items = [...state.items, ...action.payload];
+        // state.items = [...state.items, ...action.payload];
 
       })
-      .addCase(fetchCarsThunk.rejected, (state, action) => {
+      .addCase(fetchCarsByPageThunk.rejected, (state, action) => {
         state.isLoading = false;
         state.error = action.payload;
-        state.showLoadMore = false;
+        state.endOfCollection = false;
       })
 });
 
+export const { clearEndOfCollection } = carsSlice.actions;
 export const carsReducer = carsSlice.reducer;
