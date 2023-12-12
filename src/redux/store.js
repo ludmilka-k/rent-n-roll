@@ -10,9 +10,10 @@ import {
   PURGE,
   REGISTER,
 } from 'redux-persist';
-import { carsReducer} from './carsSlice';
-import { favoritesReducer} from './favoritesSlice';
-import {pageReducer} from './pageSlice';
+import { carsReducer } from './carsSlice';
+import { favoritesReducer } from './favoritesSlice';
+import { pageReducer } from './pageSlice';
+import { filterReducer } from './filterSlice';
 
 const persistConfig = {
   key: 'favorites',
@@ -24,6 +25,7 @@ const persistConfig = {
 const reducers = combineReducers({
   cars: carsReducer,
   favorites: favoritesReducer,
+  filters: filterReducer,
   page: pageReducer,
 });
 

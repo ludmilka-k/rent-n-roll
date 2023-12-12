@@ -1,6 +1,5 @@
 import Select from 'react-select';
 import { useState } from 'react';
-import { useDispatch } from 'react-redux';
 import {
   FilterForm,
   Form,
@@ -18,7 +17,6 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 
 const FilterBar = ({makes, priceTopLimit, filters, onFilterChange}) => {
-  const dispatch = useDispatch();
   const [selectedMake, setSelectedMake] = useState(filters.make);
   const [selectedMaxPrice, setSelectedMaxPrice] = useState(filters.maxPrice);
   const [mileageFrom, setMileageFrom] = useState(filters.minMileage);
@@ -74,7 +72,6 @@ const FilterBar = ({makes, priceTopLimit, filters, onFilterChange}) => {
     setSelectedMaxPrice(null);
     setMileageFrom(null);
     setMileageTo(null);
-    // console.log("selectedMake: " + selectedMake?.value);
     // handleSearch(event);
   }
 
