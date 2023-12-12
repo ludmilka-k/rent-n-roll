@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/rent-n-roll/static/css/main.ef416ad2.css",
-    "main.js": "/rent-n-roll/static/js/main.56a13d9f.js",
-    "static/js/817.fe6ae741.chunk.js": "/rent-n-roll/static/js/817.fe6ae741.chunk.js",
-    "static/css/965.0fe6205f.chunk.css": "/rent-n-roll/static/css/965.0fe6205f.chunk.css",
-    "static/js/965.6952a7e8.chunk.js": "/rent-n-roll/static/js/965.6952a7e8.chunk.js",
-    "static/js/9.a1cce3d5.chunk.js": "/rent-n-roll/static/js/9.a1cce3d5.chunk.js",
-    "static/js/760.5f6f3ef6.chunk.js": "/rent-n-roll/static/js/760.5f6f3ef6.chunk.js",
+    "main.css": "/rent-n-roll/static/css/main.f9583fdf.css",
+    "main.js": "/rent-n-roll/static/js/main.bc3d13dd.js",
+    "static/js/817.6aa21dda.chunk.js": "/rent-n-roll/static/js/817.6aa21dda.chunk.js",
+    "static/js/421.977b6b74.chunk.js": "/rent-n-roll/static/js/421.977b6b74.chunk.js",
+    "static/js/450.25343623.chunk.js": "/rent-n-roll/static/js/450.25343623.chunk.js",
+    "static/js/760.878864ad.chunk.js": "/rent-n-roll/static/js/760.878864ad.chunk.js",
+    "static/js/990.4856fb1e.chunk.js": "/rent-n-roll/static/js/990.4856fb1e.chunk.js",
     "static/media/banner.webp": "/rent-n-roll/static/media/banner.dff4dff0bca4c9e28240.webp",
-    "static/media/mitsubishi.webp": "/rent-n-roll/static/media/mitsubishi.609cf6e71332d33becde.webp",
     "index.html": "/rent-n-roll/index.html",
-    "main.ef416ad2.css.map": "/rent-n-roll/static/css/main.ef416ad2.css.map",
-    "main.56a13d9f.js.map": "/rent-n-roll/static/js/main.56a13d9f.js.map",
-    "817.fe6ae741.chunk.js.map": "/rent-n-roll/static/js/817.fe6ae741.chunk.js.map",
-    "965.0fe6205f.chunk.css.map": "/rent-n-roll/static/css/965.0fe6205f.chunk.css.map",
-    "965.6952a7e8.chunk.js.map": "/rent-n-roll/static/js/965.6952a7e8.chunk.js.map",
-    "9.a1cce3d5.chunk.js.map": "/rent-n-roll/static/js/9.a1cce3d5.chunk.js.map",
-    "760.5f6f3ef6.chunk.js.map": "/rent-n-roll/static/js/760.5f6f3ef6.chunk.js.map"
+    "main.f9583fdf.css.map": "/rent-n-roll/static/css/main.f9583fdf.css.map",
+    "main.bc3d13dd.js.map": "/rent-n-roll/static/js/main.bc3d13dd.js.map",
+    "817.6aa21dda.chunk.js.map": "/rent-n-roll/static/js/817.6aa21dda.chunk.js.map",
+    "421.977b6b74.chunk.js.map": "/rent-n-roll/static/js/421.977b6b74.chunk.js.map",
+    "450.25343623.chunk.js.map": "/rent-n-roll/static/js/450.25343623.chunk.js.map",
+    "760.878864ad.chunk.js.map": "/rent-n-roll/static/js/760.878864ad.chunk.js.map",
+    "990.4856fb1e.chunk.js.map": "/rent-n-roll/static/js/990.4856fb1e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef416ad2.css",
-    "static/js/main.56a13d9f.js"
+    "static/css/main.f9583fdf.css",
+    "static/js/main.bc3d13dd.js"
   ]
 }
