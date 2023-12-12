@@ -60,7 +60,7 @@ const Catalog = () => {
       // console.log("aborting...")
       abortController?.abort()
     }
-  }, [visibleCars, itemInt, pageInt, filters, page, dispatch]);
+  }, [visibleCars, endOfCollection, itemInt, pageInt, filters, page, dispatch]);
 
 
   const priceTopLimit = 500;
